@@ -55,5 +55,5 @@ func main() {
 			fmt.Println("delete")
 		},
 	})
-	informer.Run(stopCh)
+	go informer.Run(stopCh)
 }
